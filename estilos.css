@@ -1,0 +1,92 @@
+/* CSS Document*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: /*aplica la fuente a todo el cuerpo(luego borrar en los demas estilos)*/
+	line-height: 1.3em;
+
+}
+
+header{
+	width: 100%;
+	background: #565454;
+	color: #fff;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+header img{ /*propiedades de la imagen*/
+	width: 150px;
+	margin-left: 46%;
+	margin-top: 1%;
+	border-radius: 100%;
+}
+
+h1{
+	text-align: center;
+	font-family: "helvetica";
+	font-size: 1.5em;
+}
+
+h2{
+	text-align: center;
+	font-family: "helvetica";/*ver esto*/
+	font-size: 1em;
+}
+
+section{
+	width: 70%; /*esto hizo que el texto agarre el 70% de la pantalla*/
+	margin: 0 auto; /*esto centro el texto*/
+}
+
+article{
+	padding: 40px 0 20px 0;
+	border-bottom: #888282 dotted 1px; /*lina que separa cada seccion*/
+}
+
+article h2{
+	float: left; /*esto puso los titulos al lado del texto*/
+	border-bottom: solid 2px #21abc5; /*subrayado*/
+	padding-bottom: 5px; /*espacio entre subrayado y texto*/
+	line-height: 1.3em; /*separacion entre lineas*/
+	text-transform: uppercase; /*transforma a mayuscula*/
+	font-size: 1em;
+}
+
+article p, article ul{
+	margin-left: 20%; /*separacion entre titulo de cada seccion y texto*/
+	font-family: /*ver esto*/
+	line-height: 1.3em;
+	color:#817c7c;
+	margin-bottom: 1.5em; /*espacio entre parrafos*/
+
+}
+
+article ul li{
+	margin-left: 15px;
+	list-style: square; /*cambia el signo de la lita*/	
+}
+
+footer{
+	width: 100%;
+	background: #565454;
+	margin-top: 3em;
+	padding: 2em;
+	color:#fff;
+}
+
+footer p{
+	text-align: center
+}
+
+footer a:link, footer a:visited{
+	color:#fff;
+}/* propiedades para vinculo y vinculo visitado*/
+
+footer a:hover{
+	text-decoration: none;/*saca el subrayado al pasar el raton*/
+}/*propiedades al pasar raton sobre un vinculo*/
